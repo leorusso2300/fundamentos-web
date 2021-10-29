@@ -6,54 +6,70 @@ body{
 header #eu{
     border-radius: 50%;  
     position: relative;
-    top:10px;
-    left: 42%; 
+
 }
+.container{
+    justify-content: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
 header {
 background-repeat: no-repeat;
 background-size: cover;
+background-image: url('https://i.pinimg.com/originals/bc/9c/af/bc9caf2d44ae2105d9ae0c0644c1cd54.jpg');
+
+
 }
-#menu ul {
+.menu{
+    position: relative;
+    top: -16px;
+
+}
+.menu ul {
     background-color: #BA55D3;
     list-style:none;
-    
-    
-}
-#menu ul li {
-    display: inline; 
-    position:relative;
-    left: 43%;
-    top: 50%;
-    padding: 1px;
+
+
+
    
     
 }
-#menu ul li a {
+.menu ul li {
+    display: inline; 
+    padding: 1px;
+    position: relative;
+    right: 2%;
+    
+    
+}
+.menu ul li a {
     padding: 10px 10px;
     display: inline-block;
     background-color: #BA55D3	;
     color: white;  
     text-decoration: none;
+
     
 }
-#menu ul li a:hover {
+.menu ul li a:hover {
     background-color:#D6D6D6;
     color: #6D6D6D;
     
 }
 .quadrado{
-    position:relative;
-    left: 27%;
     background: #BA55D3;
     width: 600px;
+    
 }
 
 .fundo{
     background: #BA55D3;
     height: 360px;
     width: 600px;
-    position:relative;
-    left: 27%;
+  
 }
 .fundo form{
     position:relative;
@@ -61,8 +77,6 @@ background-size: cover;
 }
 .fundomaps{
     background: #BA55D3;
-    position:relative;
-    left: 27%;
     height: 330px;
     width: 600px;
 
@@ -71,7 +85,6 @@ background-size: cover;
 .fundomaps iframe{
     position:relative;
     top: 15px;
-    left: 15%;
 }
 
     
